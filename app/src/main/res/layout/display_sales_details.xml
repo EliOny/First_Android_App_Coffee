@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D6BAA2"
+    tools:context=".DisplaySalesDetails">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16sp"
+        android:layout_marginTop="25sp"
+        android:layout_marginRight="16sp"
+        android:gravity="center_horizontal"
+        android:text="Your Order Details"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/displayTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16sp"
+        android:layout_marginTop="25sp"
+        android:layout_marginRight="16sp"
+        android:gravity="center_horizontal"
+        android:textSize="18dp"
+        />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_marginTop="26dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Re-Order"
+        android:onClick="reorder"/>
+
+
+
+</LinearLayout>
